@@ -20,4 +20,5 @@
 - Tes push dari branch ``master`` pakai ``-u origin``  
 - Tes push dari branch ``master`` tanpa ``origin``  
 - Tes taru di **staging area**  
-- Tes update **staging area** dan mencatat histori
+- Tes update **staging area** dan mencatat histori  
+- Tes Update histori sebelum permintaan pull request  

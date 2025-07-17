@@ -9,4 +9,4 @@ Tes Pull Rquest
 
 - Test push pakai ``-u origin main``  ✔️
 - Test pull tanpa ``origin main``  ✔️
-- Test push tanpa ``origin main``
+- Test push tanpa ``origin main``  ✔️

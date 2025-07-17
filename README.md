@@ -18,3 +18,4 @@
 #### Tes Pull request & marge  
 
 - Tes push dari branch ``master`` pakai ``-u origin``  
+- Tes push dari branch ``master`` tanpa ``origin``  

@@ -13,4 +13,8 @@
 <img src="img/2.png" alt="gambar1" width="400px"> 
 
 - Test push **tanpa ``origin main``**  ✔️  
-<img src="img/3.png" alt="gambar1" width="400px">
+<img src="img/3.png" alt="gambar1" width="400px">  
+
+#### Tes Pull request & marge  
+
+- Tes push dari branch ``master`` pakai ``-u origin``  

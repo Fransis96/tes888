@@ -7,6 +7,11 @@ Tes Pull Rquest
 
 #### Tes123 
 
-- Test push pakai ``-u origin main``  ✔️
-- Test pull tanpa ``origin main``  ✔️
-- Test push tanpa ``origin main``  ✔️
+- Test push **pakai ``-u origin main``**  ✔️  
+<img src="img/1.png" alt="gambar1" width="400px">
+
+- Test pull **tanpa ``origin main``**  ✔️  
+<img src="img/2.png" alt="gambar1" width="400px"> 
+
+- Test push **tanpa ``origin main``**  ✔️  
+<img src="img/3.png" alt="gambar1" width="400px">

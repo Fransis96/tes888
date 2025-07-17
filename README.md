@@ -5,7 +5,8 @@ Tes Pull Rquest
 > Ini hanya uji coba.
 
 
-### Tes123 
+#### Tes123 
 
-- Test push pakai ``-u origin main``  
-- Test pull tanpa ``-u origin main``
+- Test push pakai ``-u origin main``  ✔️
+- Test pull tanpa ``origin main``  ✔️
+- Test push tanpa ``origin main``

@@ -1,0 +1,206 @@
+PS C:\Users\agnes\Desktop\GG\tes888> subl .\README.md
+PS C:\Users\agnes\Desktop\GG\tes888> start .
+PS C:\Users\agnes\Desktop\GG\tes888> git add .
+PS C:\Users\agnes\Desktop\GG\tes888> git commit -m "Tes push"
+[main 9672885] Tes push
+ 1 file changed, 2 insertions(+)
+PS C:\Users\agnes\Desktop\GG\tes888> git branch -M main
+PS C:\Users\agnes\Desktop\GG\tes888> git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 310 bytes | 155.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Fransis96/tes888.git
+   6e1f949..9672885  main -> main
+PS C:\Users\agnes\Desktop\GG\tes888> git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 955 bytes | 106.00 KiB/s, done.
+From github.com:Fransis96/tes888
+ * branch            main       -> FETCH_HEAD
+   9672885..b9ff1b4  main       -> origin/main
+Updating 9672885..b9ff1b4
+Fast-forward
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\agnes\Desktop\GG\tes888> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\agnes\Desktop\GG\tes888> subl .\README.md
+PS C:\Users\agnes\Desktop\GG\tes888> git add .
+PS C:\Users\agnes\Desktop\GG\tes888> git commit -m "Test push pakai -u"
+[main 0a0efc6] Test push pakai -u
+ 1 file changed, 5 insertions(+)
+PS C:\Users\agnes\Desktop\GG\tes888> git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 362 bytes | 362.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Fransis96/tes888.git
+   b9ff1b4..0a0efc6  main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\agnes\Desktop\GG\tes888> git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 962 bytes | 87.00 KiB/s, done.
+From github.com:Fransis96/tes888
+   0a0efc6..a694d79  main       -> origin/main
+Updating 0a0efc6..a694d79
+Fast-forward
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\agnes\Desktop\GG\tes888> git add .
+PS C:\Users\agnes\Desktop\GG\tes888> git add .
+PS C:\Users\agnes\Desktop\GG\tes888> git commit -m "Test push tanpa origin main"
+[main 8f4f3ad] Test push tanpa origin main
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+PS C:\Users\agnes\Desktop\GG\tes888> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 349 bytes | 349.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Fransis96/tes888.git
+   a694d79..8f4f3ad  main -> main
+PS C:\Users\agnes\Desktop\GG\tes888> git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 929 bytes | 84.00 KiB/s, done.
+From github.com:Fransis96/tes888
+   8f4f3ad..8e2479a  main       -> origin/main
+Updating 8f4f3ad..8e2479a
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\agnes\Desktop\GG\tes888> git add .
+PS C:\Users\agnes\Desktop\GG\tes888> git commit -m "Menambahkan hasill ss"
+[main 5c7b938] Menambahkan hasill ss
+ 4 files changed, 8 insertions(+), 3 deletions(-)
+ create mode 100644 img/1.png
+ create mode 100644 img/2.png
+ create mode 100644 img/3.png
+PS C:\Users\agnes\Desktop\GG\tes888> git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 125.72 KiB | 498.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Fransis96/tes888.git
+   8e2479a..5c7b938  main -> main
+PS C:\Users\agnes\Desktop\GG\tes888> git add .
+PS C:\Users\agnes\Desktop\GG\tes888> git commit -m "Menambahkan hasill ss"
+[main 7e55d42] Menambahkan hasill ss
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+PS C:\Users\agnes\Desktop\GG\tes888> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 330 bytes | 330.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Fransis96/tes888.git
+   5c7b938..7e55d42  main -> main
+PS C:\Users\agnes\Desktop\GG\tes888> git add .
+PS C:\Users\agnes\Desktop\GG\tes888> git commit -m "Melakukan push dari branch master"
+[main 4f4283f] Melakukan push dari branch master
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+PS C:\Users\agnes\Desktop\GG\tes888> git branch -M master
+PS C:\Users\agnes\Desktop\GG\tes888> git branch
+* master
+PS C:\Users\agnes\Desktop\GG\tes888> git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 412 bytes | 412.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Fransis96/tes888/pull/new/master
+remote:
+To github.com:Fransis96/tes888.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\Users\agnes\Desktop\GG\tes888> git add .
+PS C:\Users\agnes\Desktop\GG\tes888> git commit -m "test push dari branch master tanpa origin"
+[master 1a42704] test push dari branch master tanpa origin
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 img/4.png
+PS C:\Users\agnes\Desktop\GG\tes888> git add .
+PS C:\Users\agnes\Desktop\GG\tes888> git add .
+PS C:\Users\agnes\Desktop\GG\tes888> git commit -m "update staging area dan mencatat histori"
+[master 84e072d] update staging area dan mencatat histori
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+PS C:\Users\agnes\Desktop\GG\tes888> git add .
+PS C:\Users\agnes\Desktop\GG\tes888> git commit -m "Update histori"
+[master 9d51bc4] Update histori
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\agnes\Desktop\GG\tes888> git push
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 68.56 KiB | 288.00 KiB/s, done.
+Total 11 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To github.com:Fransis96/tes888.git
+   4f4283f..9d51bc4  master -> master
+PS C:\Users\agnes\Desktop\GG\tes888> git checkout main
+branch 'main' set up to track 'origin/main'.
+Switched to a new branch 'main'
+PS C:\Users\agnes\Desktop\GG\tes888> git pull origin main
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (1/1), 913 bytes | 228.00 KiB/s, done.
+From github.com:Fransis96/tes888
+ * branch            main       -> FETCH_HEAD
+   7e55d42..4b7e953  main       -> origin/main
+Updating 7e55d42..4b7e953
+Fast-forward
+ README.md | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+PS C:\Users\agnes\Desktop\GG\tes888> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\agnes\Desktop\GG\tes888> git merge aster
+merge: aster - not something we can merge
+PS C:\Users\agnes\Desktop\GG\tes888> git merge master
+Merge made by the 'ort' strategy.
+ README.md |   6 +++++-
+ img/4.png | Bin 0 -> 80592 bytes
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+ create mode 100644 img/4.png
+PS C:\Users\agnes\Desktop\GG\tes888> git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\agnes\Desktop\GG\tes888> git push origin main
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 233 bytes | 233.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Fransis96/tes888.git
+   4b7e953..2013aba  main -> main
+PS C:\Users\agnes\Desktop\GG\tes888>

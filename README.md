@@ -7,4 +7,5 @@ Tes Pull Rquest
 
 ### Tes123 
 
-- Test push pakai ``-u origin main``
+- Test push pakai ``-u origin main``  
+- Test pull tanpa ``-u origin main``
